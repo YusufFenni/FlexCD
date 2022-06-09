@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flexcd">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FLEXCD"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FLEXCD">
+        <activity
+            android:name=".urun_liste"
+            android:exported="false" />
+
+        <activity
+            android:name=".sepetim"
+            android:exported="false" />
+        <activity
+            android:name=".urun_liste3"
+            android:exported="false" />
+        <activity
+            android:name=".urun_liste2"
+            android:exported="false" />
+        <activity
+            android:name=".kayitol"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay12"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay11"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay10"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay9"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay8"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay7"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay6"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay5"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay4"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay3"
+            android:exported="false" />
+        <activity
+            android:name=".urundetay2"
+            android:exported="false" />
+        <activity
+            android:name=".urundetayy"
+            android:exported="false" />
+        <activity
+            android:name=".oyunliste"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".acilis"
+            android:exported="false" />
+        <activity
+            android:name=".satinalma"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

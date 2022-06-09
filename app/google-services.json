@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "267572219440",
+    "project_id": "flexcd-e85ee",
+    "storage_bucket": "flexcd-e85ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267572219440:android:2c7d44240b2508996a27f5",
+        "android_client_info": {
+          "package_name": "com.example.flexcd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267572219440-g9macuchbm0rf8lhhpshru5aat0ujcmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu9RPe2vhEsYMpsh5uFAN4nr_Ah1ZnrMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267572219440-g9macuchbm0rf8lhhpshru5aat0ujcmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

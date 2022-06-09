@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#773939"
+    android:backgroundTint="#000000"
+
+    tools:context=".oyunliste">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+
+
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/whatsapp_image_2022_05_27_at_19_22_50" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="FlexCD"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textColorLink="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/valorantoyun"
+        android:layout_width="174dp"
+        android:layout_height="501dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/armabtn"
+        app:srcCompat="@drawable/valorant" />
+
+
+    <ImageView
+        android:id="@+id/pubgoyun"
+        android:layout_width="104dp"
+        android:layout_height="423dp"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/valorantoyun"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/armabtn"
+        app:srcCompat="@drawable/pubg" />
+
+    <ImageView
+        android:id="@+id/csgooyun"
+        android:layout_width="104dp"
+        android:layout_height="423dp"
+        android:background="#A9FFFFFF"
+        android:backgroundTint="#5B000000"
+        android:scaleType="centerCrop"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/valorantoyun"
+        app:layout_constraintTop_toBottomOf="@+id/armabtn"
+        app:srcCompat="@drawable/csgo" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="96dp"
+        android:layout_height="19dp"
+        android:background="#99FFFFFF"
+        android:text="valorant"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/valorantoyun"
+        app:layout_constraintEnd_toEndOf="@+id/valorantoyun"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/valorantoyun"
+        app:layout_constraintTop_toTopOf="@+id/valorantoyun"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <SearchView
+        android:id="@+id/armabtn"
+        android:layout_width="400dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="644dp"
+        android:background="#99FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
